@@ -1,0 +1,19 @@
+name: Project feedback
+description: Ask about the project or suggest a game, task, or documentation improvement.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Nekxsopus is a public showcase of a private implementation. Do not include credentials, private server details, or unredacted logs."
+  - type: textarea
+    id: idea
+    attributes:
+      label: Question or suggestion
+      description: Describe the task, expected benefit, or documentation correction.
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game and edition, if relevant
+      placeholder: GTA San Andreas through MTA, Warcraft III custom map, or another game

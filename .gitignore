@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.env
+.env.*
+Nekxsopus-Data/
+node_modules/
+controller.config.json
+mta-connection.json
+server-config.lua
